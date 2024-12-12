@@ -9,8 +9,8 @@ const HERO_SECTION_DATA = {
   titleLineHeight: 72.64,
   decription:
     "Lorem ipsum odor amet, consectetuer adipiscing elit. Sociosqu a nec magna habitant nec. Ullamcorper dui varius volutpat primis lacinia elit morbi velit.",
-  descTextSize: 32,
-  descLineHeight: 36.36,
+  descriptionTextSize: 32,
+  descriptionLineHeight: 36.36,
   contentWidth: 60,
   backgroundColor: "#D9D9D9",
   buttonColor: "#EBEBEB",
@@ -95,8 +95,8 @@ export default function Denistry() {
         titleTextSize={HERO_SECTION_DATA.titleTextSize}
         titleLineHeight={HERO_SECTION_DATA.titleLineHeight}
         description={HERO_SECTION_DATA.decription}
-        descTextSize={HERO_SECTION_DATA.descTextSize}
-        descLineHeight={HERO_SECTION_DATA.descLineHeight}
+        descriptionTextSize={HERO_SECTION_DATA.descriptionTextSize}
+        descriptionLineHeight={HERO_SECTION_DATA.descriptionLineHeight}
         contentWidth={HERO_SECTION_DATA.contentWidth}
         backgroundColor={HERO_SECTION_DATA.backgroundColor}
         buttonColor={HERO_SECTION_DATA.buttonColor}

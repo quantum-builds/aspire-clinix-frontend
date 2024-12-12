@@ -10,8 +10,8 @@ export default function ReferralPage() {
         title="Dental Treatment Fee Guide"
         titleTextSize={48}
         titleLineHeight={60}
-        descTextSize={18}
-        descLineHeight={28}
+        descriptionTextSize={18}
+        descriptionLineHeight={28}
         description="Explore our fee structure and treatment options."
         backgroundColor={heroBackgroundColor}
         buttonColor={herobuttonColor}

@@ -159,8 +159,8 @@ const HERO_SECTION_DATA = {
   titleTextSize: 70,
   titleLineHeight: 79.45,
   decription: null,
-  descTextSize: null,
-  descLineHeight: null,
+  descriptionTextSize: null,
+  descriptionLineHeight: null,
   contentWidth: 70,
   backgroundColor: "#FFFFFF",
   buttonColor: "#EBEBEB",
@@ -186,8 +186,8 @@ export default function LandingPage() {
         titleTextSize={HERO_SECTION_DATA.titleTextSize}
         titleLineHeight={HERO_SECTION_DATA.titleLineHeight}
         description={HERO_SECTION_DATA.decription}
-        descTextSize={HERO_SECTION_DATA.descTextSize}
-        descLineHeight={HERO_SECTION_DATA.descLineHeight}
+        descriptionTextSize={HERO_SECTION_DATA.descriptionTextSize}
+        descriptionLineHeight={HERO_SECTION_DATA.descriptionLineHeight}
         contentWidth={HERO_SECTION_DATA.contentWidth}
         backgroundColor={HERO_SECTION_DATA.backgroundColor}
         buttonColor={HERO_SECTION_DATA.buttonColor}

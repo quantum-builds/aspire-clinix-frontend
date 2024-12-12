@@ -8,8 +8,8 @@ interface HeroSectionProps {
   description?: string | null;
   titleTextSize: number;
   titleLineHeight: number;
-  descTextSize?: number | null;
-  descLineHeight?: number | null;
+  descriptionTextSize?: number | null;
+  descriptionLineHeight?: number | null;
   contentWidth?: number | null;
   backgroundColor: string;
   buttonColor: string;
@@ -21,8 +21,8 @@ export default function HeroSection({
   description,
   titleTextSize,
   titleLineHeight,
-  descTextSize,
-  descLineHeight,
+  descriptionTextSize,
+  descriptionLineHeight,
   contentWidth,
   backgroundColor,
   buttonColor,
@@ -71,12 +71,12 @@ export default function HeroSection({
         </p>
 
         {/* Description */}
-        {description && descTextSize && descLineHeight && (
+        {description && descriptionTextSize && descriptionLineHeight && (
           <p
             className="text-center font-sans"
             style={{
-              fontSize: `${descTextSize}px`,
-              lineHeight: `${descLineHeight}px`,
+              fontSize: `${descriptionTextSize}px`,
+              lineHeight: `${descriptionLineHeight}px`,
               color: textColor,
             }}
           >
